@@ -13,7 +13,7 @@ while cant != -1:
     
     if cant > 0:
         for x in range(cant):
-            print(x+1,'º:',fib(x))
+            print(x+1,'º:',fib(x+1))
         cant = int(input('(Salir con -1) Ingrese la cantidad de fibonacci que queres ver: '))
         
     else:
