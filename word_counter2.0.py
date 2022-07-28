@@ -31,7 +31,7 @@ def contarpalabrasArchivo(a):
                     numpalabras += 1
     print('---En el archivo hay', numpalabras, 'palabras')#cuantas palabras hay en el archivo?
     
-    
+# No imprimir las frases nuevamente
 def imprimirFrases(a):
     print(' FRASES EN EL ARCHIVO --')
     archivo = open(a)
