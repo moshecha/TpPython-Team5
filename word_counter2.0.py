@@ -31,19 +31,21 @@ def contarpalabrasArchivo(a):
                     numpalabras += 1
     print('---En el archivo hay', numpalabras, 'palabras')#cuantas palabras hay en el archivo?
     
-# No imprimir las frases nuevamente
-def imprimirFrases(a):
-    print(' FRASES EN EL ARCHIVO --')
-    archivo = open(a)
-    for lineas in archivo:
-        print ('-', lineas)
+    
+# def imprimirFrases(a):
+#     print(' FRASES EN EL ARCHIVO --')
+#     archivo = open(a)
+#     for lineas in archivo:
+#         print ('-', lineas)
  
 frase = ''       
 while frase != 'salir' and frase != 'x':
-    frase = input('ingrese frase: ')
+    frase = input('(salir/x para salir) ingrese frase: ')
     archivo = 'archivo.txt'
-    guardafrase(archivo,frase)
-    contarpalabras(frase)
-    contarpalabrasArchivo(archivo)
-    contarfrases(archivo)
-    imprimirFrases(archivo)
+    if frase != 'salir' and frase != 'x':
+        guardafrase(archivo,frase)
+        contarpalabras(frase)
+        contarpalabrasArchivo(archivo)
+        contarfrases(archivo)
+
+    #imprimirFrases(archivo)
