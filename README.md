@@ -51,11 +51,11 @@ registro).
 
 # Integrantes:
 
-1. Integrante 1
-2. Integrante 2
-3. Integrante 3
-4. Integrante 4
-5. Integrante 5
+1. Moshe chami
+2. Sharu Romano
+3. Levcovich Uriel
+4. Rubi Chaio
+5. Integrante 5??? no aparece
 
 # Correcciones
 
