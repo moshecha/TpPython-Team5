@@ -55,14 +55,3 @@ registro).
 2. Sharu Romano
 3. Levcovich Uriel
 4. Rubi Chaio
-5. Integrante 5??? no aparece
-
-# Correcciones
-
-- Ejercicio __'contador de palabras'__: No mostrar el contenido del archivo cada vez que el usuario ingresa una nueva frase, solo mostrar la cantidad de frases y palabras. No se debe contar la palabra clave en el archivo ni tampoco sumarla en el conteo final.
-
-- Ejercicio __'fibonacci'__: El primer valor de la serie de fibonacci es 1, no 0. La serie de fibonacci comienza con 1, 1, 2, 3, 5, 8, 13 ....
-
-- Ejercicio __'libreta de direcciones'__: Se deben hacer algunas correcciones, solo almacenar las variables sin ningun agregado. Ver los comentarios en el archivo address_book.py
-
-- Agregar los integrantes del grupo en la seccion Integrantes de este documento
